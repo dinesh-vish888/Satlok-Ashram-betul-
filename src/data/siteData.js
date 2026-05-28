@@ -109,14 +109,14 @@ export const siteData = {
     heading: "Connect With Us",
     description: "Follow official social platforms of Satlok Ashram Betul and stay connected with satsang, spiritual knowledge and divine updates.",
     links: [
-      { platform: "YouTube", handle: "@SatlokAshram", icon: "youtube", url: "https://youtube.com/@SatlokAshram" },
+      { platform: "YouTube", handle: "@SatlokAshramBetul", icon: "youtube", url: "https://www.youtube.com/@SatlokAshramBetul" },
       { platform: "Instagram", handle: "@satlok_ashram_betul", icon: "instagram", url: "https://instagram.com/satlok_ashram_betul" },
       { platform: "Facebook", handle: "Satlok Ashram Betul", icon: "facebook", url: "https://facebook.com/SatlokAshramBetul" },
       { platform: "Twitter/X", handle: "@_SatlokBetul", icon: "twitter", url: "https://twitter.com/_SatlokBetul" },
     ],
-    channelName: "Satlok Ashram",
+    channelName: "Satlok Ashram Betul",
     channelSubtitle: "Official Spiritual Community",
-    youtubeHandle: "@SatlokAshrambetul",
+    youtubeHandle: "@SatlokAshramBetul",
   },
 
   // Footer
