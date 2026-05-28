@@ -1,0 +1,32 @@
+/* ===================================
+   Simple Footer
+   =================================== */
+
+.footer-simple {
+  background: var(--bg-white);
+  padding: var(--space-xl) var(--space-lg);
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.footer-simple__inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-simple__text {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-simple__heart {
+  color: #EF4444;
+  font-size: 1rem;
+  animation: pulse 2s ease-in-out infinite;
+  fill: #EF4444;
+}

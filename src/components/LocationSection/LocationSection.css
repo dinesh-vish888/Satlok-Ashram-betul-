@@ -1,0 +1,179 @@
+/* ===================================
+   Visit Our Ashram Section
+   =================================== */
+
+.visit-section {
+  background: var(--bg-light);
+  position: relative;
+}
+
+.visit-section__container {
+  max-width: 600px;
+}
+
+/* Header */
+.visit-section__header {
+  text-align: center;
+  margin-bottom: var(--space-xl);
+}
+
+.visit-section__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: linear-gradient(135deg, rgba(168, 85, 247, 0.12), rgba(236, 72, 153, 0.08));
+  border: 1px solid rgba(168, 85, 247, 0.15);
+  border-radius: 50px;
+  padding: 6px 18px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: var(--space-md);
+}
+
+.visit-section__title {
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: var(--space-md);
+}
+
+.visit-section__subtitle {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+
+/* Info Cards */
+.visit-section__info-cards {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  margin-bottom: var(--space-xl);
+}
+
+.visit-info-card {
+  background: var(--bg-white);
+  border-radius: var(--radius-xl);
+  padding: var(--space-lg) var(--space-xl);
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid rgba(123, 47, 190, 0.05);
+  transition: all var(--transition-base);
+}
+
+.visit-info-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.visit-info-card__icon {
+  flex-shrink: 0;
+  width: 52px;
+  height: 52px;
+  border-radius: var(--radius-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  color: var(--text-white);
+}
+
+.visit-info-card__icon--location {
+  background: linear-gradient(135deg, #7C3AED, #A855F7);
+  box-shadow: 0 4px 12px rgba(124, 58, 237, 0.3);
+}
+
+.visit-info-card__icon--time {
+  background: linear-gradient(135deg, #6366F1, #818CF8);
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+}
+
+.visit-info-card__icon--contact {
+  background: linear-gradient(135deg, #059669, #34D399);
+  box-shadow: 0 4px 12px rgba(5, 150, 105, 0.3);
+}
+
+.visit-info-card__title {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 2px;
+}
+
+.visit-info-card__text {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.visit-info-card__link {
+  color: inherit;
+  text-decoration: none;
+  transition: color var(--transition-base);
+}
+
+.visit-info-card__link:hover {
+  color: var(--primary-light);
+  text-decoration: underline;
+}
+
+/* Map Button */
+.visit-section__map-btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 14px 32px;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #7C3AED, #EC4899);
+  color: var(--text-white);
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 20px rgba(124, 58, 237, 0.3);
+  transition: all var(--transition-base);
+  margin-bottom: var(--space-xl);
+}
+
+.visit-section__map-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(124, 58, 237, 0.4);
+}
+
+/* Map */
+.visit-section__map-wrapper {
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  border: 2px solid rgba(123, 47, 190, 0.08);
+}
+
+.visit-section__map {
+  width: 100%;
+  height: 300px;
+  border: none;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .visit-section__title {
+    font-size: 2.2rem;
+  }
+
+  .visit-section__map {
+    height: 400px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .visit-section__container {
+    max-width: 700px;
+  }
+
+  .visit-section__title {
+    font-size: 2.5rem;
+  }
+}

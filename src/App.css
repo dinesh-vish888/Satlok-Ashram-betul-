@@ -1,0 +1,27 @@
+/* ===================================
+   App Global Styles
+   =================================== */
+
+/* Smooth section transitions */
+.app {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Selection color */
+::selection {
+  background: rgba(123, 47, 190, 0.2);
+  color: var(--primary-dark);
+}
+
+/* Focus styles */
+*:focus-visible {
+  outline: 2px solid var(--primary-light);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Loading state for images */
+img {
+  background: var(--bg-light);
+}
